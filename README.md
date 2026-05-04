@@ -1,8 +1,8 @@
-# 📉 Global Layoff Tracker (AI-Powered News Scraper)
+# Global Layoff Tracker (AI-Powered News Scraper)
 
 An automated data pipeline that continuously monitors global news for company layoffs, extracts the exact metrics using an LLM, deduplicates the data, and exports it to a clean Excel dashboard.
 
-## 🧠 How It Works
+## How It Works
 
 Instead of relying on fragile web scrapers and complex HTML parsing, this pipeline uses **Google's Gemini 2.5 Flash** to semantically understand news articles. 
 
@@ -11,7 +11,7 @@ Instead of relying on fragile web scrapers and complex HTML parsing, this pipeli
 3. **Deduplication:** Uses `thefuzz` for fuzzy string matching to ensure that "Alphabet Inc." and "Google" reporting the same numbers are not logged twice.
 4. **Storage:** Saves the clean data into a local SQLite database to prevent corruption during continuous runs, and automatically exports a formatted `.xlsx` file for easy reading.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Language:** Python 3.12+
 * **Data Ingestion:** `gnews`
@@ -19,9 +19,9 @@ Instead of relying on fragile web scrapers and complex HTML parsing, this pipeli
 * **Data Processing:** `thefuzz` (NLP fuzzy matching), `pandas`
 * **Storage:** `sqlite3`, `openpyxl`
 
-## 🚀 Local Installation & Setup
+## Local Installation & Setup
 
 **1. Clone the repository**
 ```bash
-git clone [https://github.com/YOUR_USERNAME/global-layoff-tracker.git](https://github.com/YOUR_USERNAME/global-layoff-tracker.git)
-cd global-layoff-tracker
+git clone [https://github.com/scariadon5/News-Scrapper-.git](https://github.com/scariadon5/News-Scrapper-.git)
+cd News-Scrapper-
