@@ -1,0 +1,8 @@
+google-genai
+pydantic
+python-dotenv
+gnews
+thefuzz
+python-Levenshtein
+pandas
+openpyxl
